@@ -1,0 +1,47 @@
+module transformation;
+-- @path famillemm=/fr.ensma.idm.projet.familydsl/model/famillemm.ecore
+-- @path addressbook=/fr.ensma.idm.projet.addressbook/addressbook.ecore
+
+
+create OUT : addressbook from IN : famillemm;
+
+lazy rule adresse2address {
+from
+a : famillemm!Adresse
+to
+ad : addressbook!Address (
+number <- a.numero,
+street <- a.rue)
+}
+
+lazy rule personne2person {
+from
+p : famillemm!Personne
+using {
+	ad : famillemm!Adresse = p.habitation;
+}
+to
+pe : addressbook!Person (
+firstName <- p.nom,
+age <- p.age,
+Address<-thisModule.adresse2address(ad)
+)
+}
+
+rule Addressbook {
+from
+f : famillemm!Famille
+using {
+	setOfpers : Sequence(famillemm!Famille) = f.membres;
+}
+to
+ab : addressbook!Addressbook (
+name <- f.id,
+person<-setOfpers->collect(it | thisModule.personne2person(it))
+
+)
+do {
+	for (person in ab.person){
+		person.familyName <- f.id;
+}
+}}

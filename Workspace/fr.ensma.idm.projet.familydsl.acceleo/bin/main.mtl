@@ -1,0 +1,11 @@
+[comment encoding = UTF-8 /]
+[module main('/fr.ensma.idm.projet.familydsl.acceleo/model/famillemm.ecore')/]
+
+[template public main(element : OclAny)]
+	
+	[comment @main /]
+	[file (element.main().concat('.java'), false, 'UTF-8')]
+		
+	[/file]
+	
+[/template]

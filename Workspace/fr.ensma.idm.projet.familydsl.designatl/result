@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<addressbook:Addressbook xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:addressbook="http://www.example.org/addressbook" name="LAM">
+  <person firstName="Mary" familyName="LAM">
+    <Address number="1" street="Avenue Pascal"/>
+  </person>
+  <person firstName="Jean" familyName="LAM">
+    <Address number="2" street="Avenue Pascal"/>
+  </person>
+  <person firstName="Henry" familyName="LAM">
+    <Address number="3" street="Avenue Pascal"/>
+  </person>
+</addressbook:Addressbook>

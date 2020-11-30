@@ -1,0 +1,11 @@
+[comment encoding = UTF-8 /]
+[module vcardsGenerate('http://www.example.org/arbregen')]
+
+[template public generateElement(aFamille : Famille)]
+[comment @main/]
+[for (current : Personne | aFamille.membres)]
+	[file (aFamille.id, false, 'UTF-8')]
+Création d'un VCards pour la person [current.nom/]
+	[/file]
+[/for]
+[/template]
