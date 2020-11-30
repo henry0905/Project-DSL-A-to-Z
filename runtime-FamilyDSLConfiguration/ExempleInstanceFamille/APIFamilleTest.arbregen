@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ASCII"?>
+<arbregen:Famille xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:arbregen="http://www.example.org/arbregen" id="la famille test">
+  <membres xsi:type="arbregen:Homme" enfants="//@membres.1"/>
+  <membres xsi:type="arbregen:Homme" nom="Marc" age="50" mere="//@membres.2" pere="//@membres.0">
+    <habitation numero="44" rue="larue" ville="laville"/>
+  </membres>
+  <membres xsi:type="arbregen:Femme" enfants="//@membres.1"/>
+</arbregen:Famille>

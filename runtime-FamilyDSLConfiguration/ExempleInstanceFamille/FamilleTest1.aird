@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:arbregen="http://www.example.org/arbregen" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.example.org/arbregen platform:/resource/fr.ensma.idm.projet.familydsl/model/famillemm.ecore http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+  <viewpoint:DAnalysis uid="_isHAcDCmEeuwBOpsq9DctQ" selectedViews="_-dzVEDJvEeuPMchsJskfOg" version="14.3.1.202003261200">
+    <semanticResources>FamilleTest.arbregen</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" uid="_jdnV4DCmEeuwBOpsq9DctQ">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/fr.ensma.idm.projet.familydsl.design/description/familydsl.odesign#//@ownedViewpoints[name='MyViewpoint']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_ex_iEDJYEeu8AsH0cl2p8w" name="new Persons diagram" repPath="#_exlSYDJYEeu8AsH0cl2p8w" changeId="267e39f9-db91-425c-abe3-459719377b86">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/fr.ensma.idm.projet.familydsl.design/description/familydsl.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Persons%20diagram']"/>
+        <target xmi:type="arbregen:Famille" href="FamilleTest.arbregen#/"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+    <ownedViews xmi:type="viewpoint:DView" uid="_-dzVEDJvEeuPMchsJskfOg">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/fr.ensma.idm.projet.familydsl.design/description/familydsl.odesign#//@ownedViewpoints[name='Personne']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_-0eIoDJvEeuPMchsJskfOg" name="new Persons diagram" repPath="#_-zf4QDJvEeuPMchsJskfOg" changeId="58e230e7-49cf-426e-b7ac-b2f632a36b11">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/fr.ensma.idm.projet.familydsl.design/description/familydsl.odesign#//@ownedViewpoints[name='Personne']/@ownedRepresentations[name='Persons%20diagram']"/>
+        <target xmi:type="arbregen:Famille" href="FamilleTest.arbregen#/"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram uid="_exlSYDJYEeu8AsH0cl2p8w">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_ex9F0DJYEeu8AsH0cl2p8w" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_ex9F0TJYEeu8AsH0cl2p8w"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_eySdADJYEeu8AsH0cl2p8w" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_eySdATJYEeu8AsH0cl2p8w" type="Sirius" element="_exlSYDJYEeu8AsH0cl2p8w" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_e6Cq0DJYEeu8AsH0cl2p8w" type="2001" element="_e57WEDJYEeu8AsH0cl2p8w">
+          <children xmi:type="notation:Node" xmi:id="_e6FuIDJYEeu8AsH0cl2p8w" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_e6FuITJYEeu8AsH0cl2p8w" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_e6LNsDJYEeu8AsH0cl2p8w" type="3003" element="_e59LQDJYEeu8AsH0cl2p8w">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_e6LNsTJYEeu8AsH0cl2p8w" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_e6LNsjJYEeu8AsH0cl2p8w"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_e6Cq0TJYEeu8AsH0cl2p8w" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_e6Cq0jJYEeu8AsH0cl2p8w" x="126" y="126" width="100" height="50"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_e6J_kDJYEeu8AsH0cl2p8w" type="2001" element="_e5_AcDJYEeu8AsH0cl2p8w">
+          <children xmi:type="notation:Node" xmi:id="_e6KmoDJYEeu8AsH0cl2p8w" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_e6KmoTJYEeu8AsH0cl2p8w" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_e6L0wDJYEeu8AsH0cl2p8w" type="3003" element="_e5_AcTJYEeu8AsH0cl2p8w">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_e6L0wTJYEeu8AsH0cl2p8w" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_e6L0wjJYEeu8AsH0cl2p8w"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_e6J_kTJYEeu8AsH0cl2p8w" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_e6J_kjJYEeu8AsH0cl2p8w" x="342" y="126" width="100" height="50"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_eySdAjJYEeu8AsH0cl2p8w"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_e57WEDJYEeu8AsH0cl2p8w" name="Jean" width="10" height="5" resizeKind="NSEW">
+      <target xmi:type="arbregen:Homme" href="FamilleTest.arbregen#//@membres.1"/>
+      <semanticElements xmi:type="arbregen:Homme" href="FamilleTest.arbregen#//@membres.1"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" uid="_e59LQDJYEeu8AsH0cl2p8w" labelSize="12" showIcon="false" labelPosition="node" width="10" height="5" color="194,239,255">
+        <description xmi:type="style:SquareDescription" href="platform:/resource/fr.ensma.idm.projet.familydsl.design/description/familydsl.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='Mannode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.ensma.idm.projet.familydsl.design/description/familydsl.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='Mannode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_e5_AcDJYEeu8AsH0cl2p8w" name="Henry" width="10" height="5" resizeKind="NSEW">
+      <target xmi:type="arbregen:Homme" href="FamilleTest.arbregen#//@membres.2"/>
+      <semanticElements xmi:type="arbregen:Homme" href="FamilleTest.arbregen#//@membres.2"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" uid="_e5_AcTJYEeu8AsH0cl2p8w" labelSize="12" showIcon="false" labelPosition="node" width="10" height="5" color="194,239,255">
+        <description xmi:type="style:SquareDescription" href="platform:/resource/fr.ensma.idm.projet.familydsl.design/description/familydsl.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='Mannode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.ensma.idm.projet.familydsl.design/description/familydsl.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='Mannode']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/fr.ensma.idm.projet.familydsl.design/description/familydsl.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Persons%20diagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_exsAEDJYEeu8AsH0cl2p8w"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/fr.ensma.idm.projet.familydsl.design/description/familydsl.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer"/>
+    <target xmi:type="arbregen:Famille" href="FamilleTest.arbregen#/"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram uid="_-zf4QDJvEeuPMchsJskfOg">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_-0bFUDJvEeuPMchsJskfOg" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_-0bFUTJvEeuPMchsJskfOg"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_-0v1cDJvEeuPMchsJskfOg" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_-0v1cTJvEeuPMchsJskfOg" type="Sirius" element="_-zf4QDJvEeuPMchsJskfOg" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_-0_tEDJvEeuPMchsJskfOg" type="2001" element="_-0IKYDJvEeuPMchsJskfOg">
+          <children xmi:type="notation:Node" xmi:id="_-1IP8DJvEeuPMchsJskfOg" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_-1IP8TJvEeuPMchsJskfOg" x="-5" y="-21"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_-8A7EDJvEeuPMchsJskfOg" type="3005" element="_-0PfIDJvEeuPMchsJskfOg">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_-8A7ETJvEeuPMchsJskfOg" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-8A7EjJvEeuPMchsJskfOg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_-0_tETJvEeuPMchsJskfOg" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-0_tEjJvEeuPMchsJskfOg" x="68" y="124" width="40" height="40"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_-7Xa0DJvEeuPMchsJskfOg" type="2001" element="_-0U-sDJvEeuPMchsJskfOg">
+          <children xmi:type="notation:Node" xmi:id="_-7Xa0zJvEeuPMchsJskfOg" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_-7Xa1DJvEeuPMchsJskfOg" x="-5" y="-21"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_-8BiIDJvEeuPMchsJskfOg" type="3005" element="_-0Wz4DJvEeuPMchsJskfOg">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_-8BiITJvEeuPMchsJskfOg" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-8BiIjJvEeuPMchsJskfOg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_-7Xa0TJvEeuPMchsJskfOg" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-7Xa0jJvEeuPMchsJskfOg" x="288" y="288" width="40" height="40"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_-7evkDJvEeuPMchsJskfOg" type="2001" element="_-0Xa8TJvEeuPMchsJskfOg">
+          <children xmi:type="notation:Node" xmi:id="_-7evkzJvEeuPMchsJskfOg" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_-7evlDJvEeuPMchsJskfOg" x="-5" y="-21"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_-8BiIzJvEeuPMchsJskfOg" type="3005" element="_-0Z3MDJvEeuPMchsJskfOg">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_-8BiJDJvEeuPMchsJskfOg" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-8BiJTJvEeuPMchsJskfOg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_-7evkTJvEeuPMchsJskfOg" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-7evkjJvEeuPMchsJskfOg" x="520" y="124" width="40" height="40"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_-0v1cjJvEeuPMchsJskfOg"/>
+        <edges xmi:type="notation:Edge" xmi:id="_svJFgDJwEeuPMchsJskfOg" type="4001" element="_sugMUDJwEeuPMchsJskfOg" source="_-7Xa0DJvEeuPMchsJskfOg" target="_-0_tEDJvEeuPMchsJskfOg">
+          <children xmi:type="notation:Node" xmi:id="_svMv4DJwEeuPMchsJskfOg" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_svMv4TJwEeuPMchsJskfOg" x="-7" y="-8"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_svNW8DJwEeuPMchsJskfOg" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_svNW8TJwEeuPMchsJskfOg" x="9" y="8"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_svOlEDJwEeuPMchsJskfOg" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_svOlETJwEeuPMchsJskfOg" x="8" y="8"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_svJFgTJwEeuPMchsJskfOg"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_svJFgjJwEeuPMchsJskfOg" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_svJFgzJwEeuPMchsJskfOg" points="[0, 0, 220, 124]$[-220, -124, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_svayUDJwEeuPMchsJskfOg" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_svayUTJwEeuPMchsJskfOg" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_K7nrMDJxEeuPMchsJskfOg" type="4001" element="_K7iysDJxEeuPMchsJskfOg" source="_-7Xa0DJvEeuPMchsJskfOg" target="_-7evkDJvEeuPMchsJskfOg">
+          <children xmi:type="notation:Node" xmi:id="_K7nrNDJxEeuPMchsJskfOg" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K7nrNTJxEeuPMchsJskfOg" x="7" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K7oSQDJxEeuPMchsJskfOg" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K7oSQTJxEeuPMchsJskfOg" x="-6" y="7"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K7oSQjJxEeuPMchsJskfOg" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K7oSQzJxEeuPMchsJskfOg" x="-8" y="7"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_K7nrMTJxEeuPMchsJskfOg"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_K7nrMjJxEeuPMchsJskfOg" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_K7nrMzJxEeuPMchsJskfOg" points="[0, 0, -232, 124]$[232, -124, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K7pgYDJxEeuPMchsJskfOg" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K7pgYTJxEeuPMchsJskfOg" id="(0.5,1.0)"/>
+        </edges>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_-0IKYDJvEeuPMchsJskfOg" name="Jean" incomingEdges="_sugMUDJwEeuPMchsJskfOg" width="4" height="4" resizeKind="NSEW">
+      <target xmi:type="arbregen:Homme" href="FamilleTest.arbregen#//@membres.1"/>
+      <semanticElements xmi:type="arbregen:Homme" href="FamilleTest.arbregen#//@membres.1"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_-0PfIDJvEeuPMchsJskfOg" showIcon="false" workspacePath="/fr.ensma.idm.projet.familydsl.design/icons/man.svg">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/fr.ensma.idm.projet.familydsl.design/description/familydsl.odesign#//@ownedViewpoints[name='Personne']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='Mannode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.ensma.idm.projet.familydsl.design/description/familydsl.odesign#//@ownedViewpoints[name='Personne']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='Mannode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_-0U-sDJvEeuPMchsJskfOg" name="Henry" outgoingEdges="_sugMUDJwEeuPMchsJskfOg _K7iysDJxEeuPMchsJskfOg" width="4" height="4" resizeKind="NSEW">
+      <target xmi:type="arbregen:Homme" href="FamilleTest.arbregen#//@membres.2"/>
+      <semanticElements xmi:type="arbregen:Homme" href="FamilleTest.arbregen#//@membres.2"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_-0Wz4DJvEeuPMchsJskfOg" showIcon="false" workspacePath="/fr.ensma.idm.projet.familydsl.design/icons/man.svg">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/fr.ensma.idm.projet.familydsl.design/description/familydsl.odesign#//@ownedViewpoints[name='Personne']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='Mannode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.ensma.idm.projet.familydsl.design/description/familydsl.odesign#//@ownedViewpoints[name='Personne']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='Mannode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_-0Xa8TJvEeuPMchsJskfOg" name="Mary" incomingEdges="_K7iysDJxEeuPMchsJskfOg" width="4" height="4" resizeKind="NSEW">
+      <target xmi:type="arbregen:Femme" href="FamilleTest.arbregen#//@membres.0"/>
+      <semanticElements xmi:type="arbregen:Femme" href="FamilleTest.arbregen#//@membres.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_-0Z3MDJvEeuPMchsJskfOg" showIcon="false" workspacePath="/fr.ensma.idm.projet.familydsl.design/icons/woman.svg">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/fr.ensma.idm.projet.familydsl.design/description/familydsl.odesign#//@ownedViewpoints[name='Personne']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='Womannode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.ensma.idm.projet.familydsl.design/description/familydsl.odesign#//@ownedViewpoints[name='Personne']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='Womannode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_sugMUDJwEeuPMchsJskfOg" sourceNode="_-0U-sDJvEeuPMchsJskfOg" targetNode="_-0IKYDJvEeuPMchsJskfOg">
+      <target xmi:type="arbregen:Homme" href="FamilleTest.arbregen#//@membres.2"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_suhacDJwEeuPMchsJskfOg" size="2" strokeColor="114,159,207">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/fr.ensma.idm.projet.familydsl.design/description/familydsl.odesign#//@ownedViewpoints[name='Personne']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@edgeMappings[name='fatherEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_suhacTJwEeuPMchsJskfOg" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/fr.ensma.idm.projet.familydsl.design/description/familydsl.odesign#//@ownedViewpoints[name='Personne']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@edgeMappings[name='fatherEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_K7iysDJxEeuPMchsJskfOg" sourceNode="_-0U-sDJvEeuPMchsJskfOg" targetNode="_-0Xa8TJvEeuPMchsJskfOg">
+      <target xmi:type="arbregen:Homme" href="FamilleTest.arbregen#//@membres.2"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_K7iysTJxEeuPMchsJskfOg" size="2" strokeColor="217,196,215">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/fr.ensma.idm.projet.familydsl.design/description/familydsl.odesign#//@ownedViewpoints[name='Personne']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@edgeMappings[name='motherEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_K7iysjJxEeuPMchsJskfOg" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/fr.ensma.idm.projet.familydsl.design/description/familydsl.odesign#//@ownedViewpoints[name='Personne']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@edgeMappings[name='motherEdge']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/fr.ensma.idm.projet.familydsl.design/description/familydsl.odesign#//@ownedViewpoints[name='Personne']/@ownedRepresentations[name='Persons%20diagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_-zrecDJvEeuPMchsJskfOg"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/fr.ensma.idm.projet.familydsl.design/description/familydsl.odesign#//@ownedViewpoints[name='Personne']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer"/>
+    <target xmi:type="arbregen:Famille" href="FamilleTest.arbregen#/"/>
+  </diagram:DSemanticDiagram>
+</xmi:XMI>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<arbregen:Famille xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:arbregen="http://www.example.org/arbregen" id="LAM">
+  <membres xsi:type="arbregen:Femme" nom="Mary" enfants="//@membres.2">
+    <habitation numero="1" rue="Avenue Pascal" ville="Poitiers"/>
+  </membres>
+  <membres xsi:type="arbregen:Homme" nom="Jean" enfants="//@membres.2">
+    <habitation numero="2" rue="Avenue Pascal" ville="Poitiers"/>
+  </membres>
+  <membres xsi:type="arbregen:Homme" nom="Henry" mere="//@membres.0" pere="//@membres.1">
+    <habitation numero="3" rue="Avenue Pascal" ville="Poitiers"/>
+  </membres>
+</arbregen:Famille>
