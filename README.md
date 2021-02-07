@@ -10,7 +10,7 @@ Buts pédagogiques : conception de modèles EMF, génération de code Java, mani
 le modèle, manipulation du méta-modèle Ecore, sauvegarde et chargement de fichiers XMI, transformation de modèles
 vers textes
 
-## Create a DSL from A to Z (Français)
+## Create a DSL from A to Z (English)
 Creation of a DSL from A to Z Objectives: the goal of this project is to learn how to implement a DSL (Domain Specific Language) using the Eclipse modeling framework called EMF. We will cover all aspects related to model-driven development with the software building blocks provided by the Eclipse platform. The Eclipse version with the modeling package will be used for this purpose.
 
 Pedagogical goals: EMF model design, Java code generation, EMF API manipulation to instantiate the model, Ecore metamodel manipulation, saving and loading XMI files, model to text transformation.
